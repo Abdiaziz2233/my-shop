@@ -156,17 +156,13 @@
 }
 
 
-
-
-
-
 .add-cart-buttons{
     margin-top: 64px;
     display: flex;
 }
 
 .arithmetic-btns{
-    border: 1px solid #bdbdbd;
+    border: 1px solid #dddddd;
     border-radius: 4px;
     margin-right: 12px;
 }
@@ -178,8 +174,8 @@
 }
 
 #center-btn-num{
-    border-left: 1px solid #bdbdbd;
-    border-right: 1px solid #bdbdbd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
 }
 
 #add-to-cart-btn{
@@ -187,4 +183,21 @@
     border-radius: 4px;
     border: none;
     padding: 12px 36px;
+}
+
+
+
+#table-header{
+    margin: 4vw 8vw 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dddddd;
+}
+
+
+#table-header p{
+    width: 17%;
+    text-align: center;
+    padding: 24px 0;
+    border-left: 1px solid #dddddd;
 }
