@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* navbar section */
+
+
+
+
+
+.navbar{
+    padding: 16px 64px;
+    height: 80px;
+    display: flex;
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+
+
+/* logo div */
+
+
+#logo-div{
+    width: 40%;
+}
+
+#logo-div img{
+    height: 100%;
+    border-radius: 50%;
+}
+#logo-div p{
+    font-weight: bold;
+    color:red;
+}
+
+.cart-icon{
+    font-size: 24px;
+}
+
+
+
+/* cart section */
+
+
+
+.cart-section{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-div{
+    display: flex;
+    margin-right: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-section a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* home jsx */
+
+
+.home{
+    padding: 8vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.one-item{
+    border: 1px solid #b4b4b4;
+    padding: 10px;
+    width: 24%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.one-item img{
+    width: 100%;
+}
+
+.price-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-name p{
+    color: #109829;
+}
+
+
+
+
+
+/* phone / */
+
+
+
+
+
+
+
+
+
+
+
+/* single item */
+
+
+
+
+.single-item{
+    padding: 4vw 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.item-image{
+    width: 50%;
+}
+
+.item-image img{
+    width: 80%;
+}
+
+.description-details{
+    width: 50%;
+}
+
+#element-name{
+    font-size: 32px;
+}
+
+#element-price{
+    margin: 64px 0;
+    color: #109810;
+    font-size: 32px;
+}
+
+
+
+
+
+
+.add-cart-buttons{
+    margin-top: 64px;
+    display: flex;
+}
+
+.arithmetic-btns{
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.arithmetic-btns button{
+    border: none;
+    padding: 12px 24px;
+    background: none;
+    cursor: pointer;
+}
+
+#center-btn-num{
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+}
+
+#add-to-cart-btn{
+    background-color: #0d8e36;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 36px;
 }

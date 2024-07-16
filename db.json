@@ -1,0 +1,60 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Shirt",
+            "price": 702000,
+            "description": "This work-or-weekend perfect casual button-front shirt in gingham plaid is made in our Signature Tumbled Cotton for a soft, yet sturdy, hand. We utilize a unique Heritage Wash to give our garments a custom, lived-in feel right away",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/9453071/1.jpg?4796"
+        },
+        {
+            "id": 2,
+            "name": "Shoe",
+            "price": 260000,
+            "description": "This product you are currently browsing is fashionable, practical and cost-effective, making it to be a must-have one. At the same time, you can also click on the store name to enter our store and explore more fashionable surprises.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/88/5730102/1.jpg?6373"
+        },
+        {
+            "id": 3,
+            "name": "Trousers",
+            "price": 202000,
+            "description": "This trouser is Stretching and breathable hence easier movement. Men Fashion-plus Offers the Best Price for this BluePerfect Quality. you can wear this trouser for casual, business and official.  ",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/84175/1.jpg?9528"
+        },
+        {
+            "id": 4,
+            "name": "Watch",
+            "price": 900000,
+            "description": "The watch band durable and practice gives you a new classic definition. Water resistant to 30 meters in general withstands splashes or brief immersion in water but not suitable for swimming or bathing.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/275362/1.jpg?6934"
+        }, 
+        {
+            "id": 5,
+            "name": "Dress",
+            "price": 30000,
+            "description": "Show your curves some love with our Most elegant dera maxi dresses. Made of  93% cotton fabric to absorb excess heat and moisture giving you a softest hug of maximum comfort",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/601243/1.jpg?2607"
+        },
+        {
+            "id": 6,
+            "name": "Jacket",
+            "price": 25000,
+            "description": "As an essential part of your closet Berrykey-sea-cod  jackets are a versatile choice for casual outings and also brilliant gear for chilled days.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/375575/1.jpg?6191"
+        },
+        {
+            "id": 7,
+            "name": "Boots",
+            "price": 280000,
+            "description": "1. Due to differences in display and lighting effects, the actual color of the item may differ slightly from the color displayed on the image. Thank you!",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/5919351/1.jpg?4493"
+        },
+        {
+            "id": 8,
+            "name": "Belt",
+            "price": 140000,
+            "description": "This is a stylish and durable belt that complements any outfit.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/0598011/1.jpg?8564"
+        }
+    ]
+}
