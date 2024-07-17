@@ -56,7 +56,7 @@ function SingleItem({ items }) {
         <div className='add-cart-buttons'>
           <div className='arithmetic-btns'>
             <button onClick={() => setQuantity(Math.max(1, quantity - 1))}>-</button>
-            <button id='center-btn-num'>{quantity}</button>
+            <button  style={{borderLeft: "1px solid #dddddd", borderRight: "1px solid #dddddd"}}>{quantity}</button>
             <button onClick={() => setQuantity(quantity + 1)}>+</button>
           </div>
           <button id='add-to-cart-btn' onClick={addToCart}>Add To Cart</button>

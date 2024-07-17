@@ -172,12 +172,6 @@
     background: none;
     cursor: pointer;
 }
-
-#center-btn-num{
-    border-left: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
-}
-
 #add-to-cart-btn{
     background-color: #0d8e36;
     border-radius: 4px;
@@ -200,4 +194,54 @@
     text-align: center;
     padding: 24px 0;
     border-left: 1px solid #dddddd;
+}
+
+.cart-item{
+    margin: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+.item-table-colums{
+    width: 17%;
+}
+
+.quantity-buttons{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+
+.quantity-buttons button{
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding: 12px 0;
+    width: 33%;
+}
+
+
+.cart-item-sub-divs{
+    border-left: 1px solid #dddddd;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#remove-item{
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#remove-item:hover{
+    color: red;
 }

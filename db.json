@@ -55,6 +55,36 @@
             "price": 140000,
             "description": "This is a stylish and durable belt that complements any outfit.",
             "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/0598011/1.jpg?8564"
+        },
+        {
+            "id": 9,
+            "name": "Necklace",
+            "price": 25000,
+            "description": "The necklace has moon and star pendant design, which makes the necklace more elegant.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/995193/1.jpg?7812"
+        },
+        {
+            "id": 10,
+            "name": "T-shirt",
+            "price": 380000,
+            "description": "Moisture wicking fabric is quick-drying, ultra-soft & has a soft feel, keeping you comfortable through any athletic activity.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/64/018813/1.jpg?2732"
+        },
+        {
+            "id": 11,
+            "name": "Socks",
+            "price": 240000,
+            "description": "Low cut no show socks that are great for activities such as yoga, running, biking, or casual wear. These low-cut ankle length socks are made to look like they are barely there",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/96/285925/1.jpg?8773"
+        },
+        {
+            "id": 12,
+            "name": "Blanket",
+            "price": 160000,
+            "description": "This premium throw blanket is a very useful for your living or bedroom space. It keeps you warm and cozy for a nap or movie time and protects your couch/bed from catching dirt or stains",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/102446/1.jpg?2476"
         }
     ]
 }
+    
+
