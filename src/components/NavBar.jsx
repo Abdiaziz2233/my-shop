@@ -4,7 +4,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavBar({user}) {
   return (
     <div className='navbar'>
       <div id='logo-div'>
@@ -13,21 +13,15 @@ function NavBar() {
         </Link>
       </div>
 
-
-
       <div className='cart-section'>
-        {/* <Link className='cart-div' to={"/phone"}>
-          <TfiHeadphoneAlt />
-          <p>Phone</p>
-        </Link> */}
         <Link className='cart-div' to={"/cart"}>
           <AiOutlineShoppingCart className='cart-icon' />
           <p>Cart</p>
         </Link>
         
-        <Link className='cart-div' to={"/account"}>
+        <Link className='cart-div' to={user ? "/account" : "/login"}>
           <VscAccount className='cart-icon' />
-          <p>Account</p>
+          <p>{user ? "Omar" : "Account"}</p>
         </Link>
       </div>
     </div>

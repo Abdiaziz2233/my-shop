@@ -83,6 +83,34 @@
             "price": 160000,
             "description": "This premium throw blanket is a very useful for your living or bedroom space. It keeps you warm and cozy for a nap or movie time and protects your couch/bed from catching dirt or stains",
             "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/102446/1.jpg?2476"
+        },
+        {
+            "id": 13,
+            "name": "Pillow",
+            "price": 24000,
+            "description": "Features:High  quality set of two pillows. Virgin Fiber filling. 600gmsHighly comfortable for perfect sleepFashion style, easy to use, comfortable.",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/81/724053/1.jpg?5345"
+        },
+        {
+            "id": 14,
+            "name": "Bedsheet",
+            "price": 350000,
+            "description": "Cute super soft baby Swaddlers made of pure cotton that feels soft on baby skin with a motherly lovely warmth",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/414331/1.jpg?0585"
+        },
+        {
+            "id": 15,
+            "name": "Sandals",
+            "price": 440000,
+            "description": "Get the most comfortable experience in these Unisex sneaker shoes made of the best quality.  available in Size 2-9 normal fitting",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/526249/1.jpg?1061"
+        },
+        {
+            "id": 16,
+            "name": "Blanket",
+            "price": 660000,
+            "description": "This Butterfly Maridadi Blanket provides warmth and comfort during fragile weather. ORDER NOW for the Butterfly Maridadi Blanke",
+            "image_url": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/51/755466/1.jpg?0835"
         }
     ]
 }

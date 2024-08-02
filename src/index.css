@@ -206,6 +206,10 @@
     border-top: none;
 }
 
+.last-item{
+    margin-bottom: 120px;
+}
+
 .item-table-colums{
     width: 17%;
 }
@@ -244,4 +248,18 @@
 
 #remove-item:hover{
     color: red;
+}
+
+
+#empty-cart{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty-cart-img{
+    width: 100px;
+    margin-bottom: 36px;
 }

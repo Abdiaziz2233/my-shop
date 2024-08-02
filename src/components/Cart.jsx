@@ -45,15 +45,23 @@ function Cart() {
   };
 
   if (cartItems.length === 0) {
-    return <div>Your cart is empty</div>;
+    return (
+      <>
+        
+        <div id='empty-cart'>
+          <img id='empty-cart-img' src="https://static.vecteezy.com/system/resources/previews/009/417/126/original/ecommerce-icon-empty-shopping-cart-3d-illustration-free-png.png" alt="" />
+          <p>Your cart is empty</p>
+        </div>
+      </>
+    )
   }
 
   return (
     <div className='cart'>
-      <h2 style={{textAlign: "center", margin: "36px 0"}}>Shopping Cart</h2>
+      <h2 style={{ textAlign: "center", margin: "36px 0", color: "orange" }}>SHOPPING CART</h2>
 
       <div id='table-header'>
-        <p style={{width: "32%", border: "none"}}>PRODUCT</p>
+        <p style={{ width: "32%", border: "none" }}>PRODUCT</p>
         <p>PRICE</p>
         <p>QUANTITY</p>
         <p>TOTAL</p>
@@ -61,13 +69,13 @@ function Cart() {
       </div>
 
 
-      {cartItems.map((item) => (
-        <div key={item.id} className='cart-item'>
-          <div style={{width: "12%"}}>
-            <img style={{width: "60%"}} src={item.image_url} alt={item.name} />
+      {cartItems.map((item, index) => (
+        <div key={item.id} className={`cart-item ${index === cartItems.length - 1 ? 'last-item' : ''}`}>
+          <div style={{ width: "12%" }}>
+            <img style={{ width: "60%" }} src={item.image_url} alt={item.name} />
           </div>
 
-          <div style={{width: "20%"}} className='cart-item-sub-divs'>
+          <div style={{ width: "20%" }} className='cart-item-sub-divs'>
             <p>{item.name}</p>
           </div>
 
@@ -78,7 +86,7 @@ function Cart() {
           <div className='item-table-colums cart-item-sub-divs'>
             <div className='quantity-buttons'>
               <button onClick={() => decrementQuantity(item.id)}>-</button>
-              <button style={{borderLeft: "1px solid #dddddd", borderRight: "1px solid #dddddd"}}>{item.quantity}</button>
+              <button style={{ borderLeft: "1px solid #dddddd", borderRight: "1px solid #dddddd" }}>{item.quantity}</button>
               <button onClick={() => incrementQuantity(item.id)}>+</button>
             </div>
           </div>
@@ -88,10 +96,10 @@ function Cart() {
           </div>
 
           <div className='item-table-colums cart-item-sub-divs'>
-          <AiOutlineCloseCircle onClick={() => removeFromCart(item.id)} id='remove-item'/>
+            <AiOutlineCloseCircle onClick={() => removeFromCart(item.id)} id='remove-item' />
           </div>
         </div>
-      ))}
+      ))}  
 
       <button onClick={clearCart}>Clear Cart</button>
     </div>
